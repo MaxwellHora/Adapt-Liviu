@@ -1,4 +1,4 @@
-# 🚀 Testes Automatizados - Adapt Liviu
+# 🚀 Testes Automatizados - Adapt Edtech
 
 Este projeto tem como objetivo automatizar testes na plataforma Adapt Liviu como parte de um teste técnico para a vaga de QA.  
 
