@@ -21,20 +21,20 @@ Adapt Liviu/
 │   ├── fixtures/
 │   │   └── usuario.json                 # Dados de teste (JSON)
 │   ├── e2e/
-│   │   ├── cadastro.spec.js             # Testes do formulário de cadastro
-│   │   ├── Confira os Planos.cy.js      # Testes para verificação dos planos
-│   │   ├── Fala conosco correto.cy.js   # Teste de envio correto do formulário de contato
-│   │   ├── Fala conosco incorreto.cy.js # Teste de envio incorreto do formulário de contato
-│   │   └── Saiba mais.cy.js             # Testes da funcionalidade "Saiba Mais"
+│   │   ├── cadastro.spec.js             # Testes do cadastro
+│   │   ├── planos.cy.js                 # Testes para planos
+│   │   ├── contato-correto.cy.js        # Teste de contato correto
+│   │   ├── contato-incorreto.cy.js      # Teste de contato incorreto
+│   │   └── saiba-mais.cy.js             # Testes "Saiba Mais"
 │   └── support/
-│       ├── commands.js                  # Comandos customizados (opcional)
-│       └── e2e.js                       # Configuração global para testes e2e (Cypress 10+)
-├── .gitignore                            # Arquivos e pastas ignorados pelo Git
-├── cypress.config.js                      # Configuração do Cypress (Cypress 10+)
-├── package.json                           # Gerenciador de dependências e scripts do projeto
-├── package-lock.json                      # Arquivo de bloqueio de versões do npm
-├── README.md                              # Documentação do projeto
-└── node_modules/                          # Dependências instaladas (ignorado pelo Git)
+│       ├── commands.js                  # Comandos customizados
+│       └── e2e.js                       # Configuração global para testes
+├── .gitignore                            # Arquivos ignorados pelo Git
+├── cypress.config.js                     # Configuração do Cypress
+├── package.json                          # Gerenciador de dependências
+├── package-lock.json                     # Bloqueio de versões do npm
+├── README.md                             # Documentação do projeto
+└── node_modules/                         # Dependências instaladas
 
 
 ## 🔧 Instalação
